@@ -17,7 +17,6 @@ Rails.application.config.assets.precompile += %w( browser.min.js )
 Rails.application.config.assets.precompile += %w( breakpoints.min.js )
 Rails.application.config.assets.precompile += %w( util.js )
 Rails.application.config.assets.precompile += %w( main.js )
-config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
