@@ -4,4 +4,7 @@ Rails.application.routes.draw do
   get  "users/login"
   get  "pages/about_us"
   get  "pages/test"
+  get  "pages/left_sidebar"
+  get  "pages/right_sidebar"
+  get  "pages/no_sidebar"
 end
