@@ -6,7 +6,6 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= stylesheet_link_tag "fontawesome-all.min.css" %>
     <%= stylesheet_link_tag "noscript.css" %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -66,7 +65,7 @@
 							<!-- Tweets -->
 								<section class="col-4 col-12-mobile">
 									<header>
-										<h2 class="icon brands fa-twitter circled"><span class="label">Tweets</span></h2>
+										<h2 class="icon brands circled"><%= fa_icon "twitter" %></h2>
 									</header>
 									<ul class="divided">
 										<li>
@@ -99,7 +98,7 @@
 							<!-- Posts -->
 								<section class="col-4 col-12-mobile">
 									<header>
-										<h2 class="icon solid fa-file circled"><span class="label">Posts</span></h2>
+										<h2 class="icon solid circled"><%= fa_icon "file" %></h2>
 									</header>
 									<ul class="divided">
 										<li>
@@ -140,7 +139,7 @@
 							<!-- Photos -->
 								<section class="col-4 col-12-mobile">
 									<header>
-										<h2 class="icon solid fa-camera circled"><span class="label">Photos</span></h2>
+										<h2 class="icon solid circled"><%= fa_icon "camera" %></h2>
 									</header>
 									<div class="row gtr-25">
 										<div class="col-6">
@@ -176,12 +175,12 @@
 										</header>
 										<p>Urna nisl non quis interdum mus ornare ridiculus egestas ridiculus lobortis vivamus tempor aliquet.</p>
 										<ul class="icons">
-											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
-											<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-											<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
+											<li><a href="#"><%= fa_icon "twitter" %></a></li>
+											<li><a href="#"><%= fa_icon "facebook" %></a></li>
+											<li><a href="#"><%= fa_icon "instagram" %></a></li>
+											<li><a href="#"><%= fa_icon "pinterest" %></a></li>
+											<li><a href="#"><%= fa_icon "dribbble" %></a></li>
+											<li><a href="#"><%= fa_icon "linkedin" %></a></li>
 										</ul>
 									</section>
 
